@@ -1,0 +1,26 @@
+{
+  "eventId": "evt-8f3a1c",
+  "subscriptionType": "deal.propertyChange",
+  "propertyName": "dealstage",
+  "propertyValue": "closedwon",
+  "objectId": 98765,
+  "occurredAt": "2026-10-13T09:15:42Z",
+  "deal": {
+    "id": "98765",
+    "name": "Example Corp - annual licence",
+    "amount": "12000.00",
+    "currency": "USD",
+    "companyId": "4455",
+    "region": "US",
+    "lineItems": [
+      { "sku": "LIC-PRO", "name": "Pro licence", "quantity": 10, "unitPrice": "1000.00" },
+      { "sku": "SUP-STD", "name": "Standard support", "quantity": 1, "unitPrice": "2000.00" }
+    ]
+  },
+  "company": {
+    "id": "4455",
+    "name": "Example Corp",
+    "vatNumber": null,
+    "country": "US"
+  }
+}

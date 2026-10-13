@@ -1,0 +1,11 @@
+{
+  "name": "netsuite-integration-exercises",
+  "version": "1.0.0",
+  "description": "Short hands-on exercises on NetSuite integrations, to be solved in a local editor.",
+  "private": true,
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "ex1": "node exercise-1-suitescript-review/harness/run.js",
+    "ex2:test": "node exercise-2-suiteql-rest/harness/run.js"
+  }
+}

@@ -1,0 +1,17 @@
+### Task B – review and fix this REST request.
+###
+### It is meant to run a SuiteQL query against the SANDBOX account with ID 1234567_SB1.
+### The integration uses token-based authentication (OAuth 1.0, HMAC-SHA256).
+###
+### 1. Find every problem and fix the request.
+### 2. For each credential / value, add a comment saying where it comes from.
+### 3. Never put real credentials in this file; use placeholders.
+###
+### (The file uses the format of the VS Code "REST Client" extension, but it is
+### plain text: you do not need to run it.)
+
+GET https://1234567.suitetalk.api.netsuite.com/services/rest/query/v1/suiteql
+Authorization: Bearer {{token}}
+Content-Type: text/plain
+
+SELECT id, tranid FROM transaction WHERE type = 'CustInvc'

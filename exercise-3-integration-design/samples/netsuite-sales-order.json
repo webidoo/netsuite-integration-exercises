@@ -1,0 +1,12 @@
+{
+  "externalId": "<to be decided>",
+  "entity": { "id": "<customer internal ID>" },
+  "subsidiary": { "id": "<subsidiary internal ID>" },
+  "currency": { "id": "<currency internal ID>" },
+  "tranDate": "2026-10-13",
+  "item": {
+    "items": [
+      { "item": { "id": "<item internal ID>" }, "quantity": 10, "rate": 1000 }
+    ]
+  }
+}
